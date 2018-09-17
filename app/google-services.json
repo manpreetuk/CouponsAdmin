@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "310978977980",
+    "firebase_url": "https://my-coupons-a739c.firebaseio.com",
+    "project_id": "my-coupons-a739c",
+    "storage_bucket": "my-coupons-a739c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310978977980:android:9fc90fd3f9bb5307",
+        "android_client_info": {
+          "package_name": "com.daakyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310978977980-e55kaaqr9nc52hbgo979l1vtksctk4bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL4NBtUaF0rfpiI6v3r0SM3pCouFhe8uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

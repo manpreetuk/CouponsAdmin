@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ct"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/generate"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/generatecp"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:onClick="actions"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Create Coupons"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/redeem"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/redeem"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:onClick="actions"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Redeem Coupons"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/allcp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/allcp"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:onClick="actions"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="All Coupons"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/logout"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:onClick="actions"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Logout"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</FrameLayout>
